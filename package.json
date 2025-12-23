@@ -1,0 +1,38 @@
+{
+  "name": "p5ss",
+  "version": "0.1.0",
+  "description": "p5ss is a CLI tool for capturing screenshots of p5.js execution results.",
+  "keywords": [
+    "p5.js",
+    "screenshot"
+  ],
+  "homepage": "https://github.com/yoshoku/p5ss",
+  "bugs": {
+    "url": "https://github.com/yoshoku/p5ss/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshoku/p5ss.git"
+  },
+  "license": "MIT",
+  "author": "Atsushi Tatsuma",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "p5ss": "./bin/p5ss.js"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "scripts": {
+    "typeCheck": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  }
+}
