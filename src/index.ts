@@ -37,6 +37,7 @@ async function takeScreenshot(
         window.p5FrameCount++;
         if (window.p5FrameCount >= ${frames}) {
           window.p5Ready = true;
+          noLoop();
         }
       };
     } else {
