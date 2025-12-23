@@ -5,7 +5,13 @@ import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
   {
-    ignores: ['dist/**', 'node_modules/**', 'bin/**', 'eslint.config.mjs', 'commitlint.config.js'],
+    ignores: [
+      'dist/**',
+      'node_modules/**',
+      'bin/**',
+      'eslint.config.mjs',
+      'commitlint.config.js',
+    ],
   },
   eslint.configs.recommended,
   ...tseslint.configs.recommendedTypeChecked,
@@ -17,8 +23,8 @@ export default tseslint.config(
       },
     },
     rules: {
-      'max-len': ['warn', { code: 96, ignoreStrings: true, ignorePattern: 'd="[^"]*"' }]
-    }
+      'max-len': ['warn', { code: 96, ignoreStrings: true, ignorePattern: 'd="[^"]*"' }],
+    },
   },
   {
     files: ['**/*.js'],
