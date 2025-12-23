@@ -127,5 +127,3 @@ export function main(): void {
     .showHelpAfterError()
     .parse();
 }
-
-main();
