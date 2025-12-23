@@ -82,4 +82,4 @@ screenshot.png:
 
 ## License
 
-The program is available as open source under the terms of the [MIT License](https://github.com/yoshoku/p5ss/blob/main/LICENSE.txt)
+The program is available as open source under the terms of the [MIT License](https://github.com/yoshoku/p5ss/blob/main/LICENSE.txt).
