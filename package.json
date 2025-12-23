@@ -30,7 +30,7 @@
     "prepare": "husky",
     "lint": "eslint . --fix",
     "format": "prettier --write .",
-    "typeCheck": "tsc --noEmit",
+    "typeCheck": "tsc --project tsconfig.test.json",
     "dev": "tsc --watch",
     "build": "tsc",
     "test": "vitest run",

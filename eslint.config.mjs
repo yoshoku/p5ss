@@ -11,6 +11,8 @@ export default tseslint.config(
       'bin/**',
       'eslint.config.mjs',
       'commitlint.config.js',
+      'test/fixtures/**',
+      'test/output/**',
     ],
   },
   eslint.configs.recommended,
@@ -18,7 +20,7 @@ export default tseslint.config(
   {
     languageOptions: {
       parserOptions: {
-        projectService: true,
+        project: ['./tsconfig.json', './tsconfig.test.json'],
         tsconfigRootDir: import.meta.dirname,
       },
     },
