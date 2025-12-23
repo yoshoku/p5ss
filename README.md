@@ -5,7 +5,7 @@ p5ss is a CLI tool for capturing screenshots of p5.js execution results.
 ## Installation
 
 ```sh
-$ npm install p5ss
+$ npm install -g p5ss
 ```
 
 ## Usage
