@@ -32,7 +32,9 @@
     "format": "prettier --write .",
     "typeCheck": "tsc --noEmit",
     "dev": "tsc --watch",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.2.0",
@@ -44,7 +46,8 @@
     "husky": "^9.1.7",
     "prettier": "^3.7.4",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.50.1"
+    "typescript-eslint": "^8.50.1",
+    "vitest": "^4.0.16"
   },
   "dependencies": {
     "commander": "^14.0.2",
