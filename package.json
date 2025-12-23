@@ -45,5 +45,8 @@
     "prettier": "^3.7.4",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.50.1"
+  },
+  "dependencies": {
+    "puppeteer": "^24.34.0"
   }
 }
